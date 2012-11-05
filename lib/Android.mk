@@ -21,7 +21,6 @@ LOCAL_SRC_FILES := \
 	basename-lgpl.c \
 	xstrtoll.c \
 
-LOCAL_CFLAGS :=
 LOCAL_MODULE := libgnulib
 LOCAL_MODULE_TAGS := optional
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../include

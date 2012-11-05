@@ -31,7 +31,7 @@
 #include <fcntl.h>
 #include <libgen.h>
 #include <stdio.h>
-#include <syscall.h>
+//#include <syscall.h>
 #include <unistd.h>
 #include <stdbool.h>
 #include <dirent.h>
@@ -39,7 +39,7 @@
 #include <sys/stat.h>
 #include <sys/types.h>
 #include <sys/utsname.h>        /* for uname() */
-#include <scsi/scsi.h>
+//#include <scsi/scsi.h>
 #include <assert.h>
 #ifdef ENABLE_DEVICE_MAPPER
 #include <libdevmapper.h>
@@ -1615,7 +1615,7 @@ linux_refresh_close (PedDevice* dev)
         return 1;
 }
 
-#if SIZEOF_OFF_T < 8
+#if 0
 
 static _syscall5(int,_llseek,
                  unsigned int, fd,
