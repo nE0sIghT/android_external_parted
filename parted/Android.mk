@@ -15,7 +15,5 @@ LOCAL_MODULE_TAGS := optional
 LOCAL_STATIC_LIBRARIES := libparted libgnulib libparted-fs
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../include $(LOCAL_PATH)/../lib
 LOCAL_SHARED_LIBRARIES := libext2_uuid
-LOCAL_MODULE_PATH := $(PRODUCT_OUT)/parted
-LOCAL_UNSTRIPPED_PATH := $(PRODUCT_OUT)/parted/debug
 
 include $(BUILD_EXECUTABLE)
