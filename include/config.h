@@ -21,10 +21,13 @@
 #define HAVE_WCHAR_H
 #define HAVE_DECL_STRERROR_R 1
 #define HAVE_DECL___FPENDING 0
+#define HAVE_LONG_LONG_INT 1
 
+#ifdef __LP64__
+#define SIZEOF_OFF_T 8
+#else
 #define SIZEOF_OFF_T 4
-
-#define linux
+#endif
 
 #define S_IREAD     S_IRUSR
 #define S_IWRITE    S_IWUSR

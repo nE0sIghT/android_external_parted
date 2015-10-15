@@ -36,8 +36,6 @@ LOCAL_STATIC_LIBRARIES := libgnulib libparted-fs
 LOCAL_C_INCLUDES := $(LOCAL_PATH)/../include \
 	$(LOCAL_PATH)/../lib \
 	external/e2fsprogs/lib \
-	fs \
-	labels
 
 include $(BUILD_STATIC_LIBRARY)
 
