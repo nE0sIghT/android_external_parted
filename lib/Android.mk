@@ -7,6 +7,7 @@ LOCAL_SRC_FILES := \
 	argmatch.c \
 	progname.c \
 	closeout.c \
+	c-ctype.c \
 	c-strcasecmp.c \
 	error.c \
 	exitfail.c \

@@ -14,13 +14,14 @@
 #define HAVE_GETOPT_H
 #define HAVE_FCNTL_H
 #define HAVE_STDIO_H
+#define HAVE_STDIO_EXT_H 1
 #define HAVE_STDLIB_H
 #define HAVE_CTYPE_H
 #define HAVE_LOCALE_H
 #define HAVE_FCNTL_H
 #define HAVE_WCHAR_H
 #define HAVE_DECL_STRERROR_R 1
-#define HAVE_DECL___FPENDING 0
+#define HAVE_DECL___FPENDING 1
 #define HAVE_LONG_LONG_INT 1
 
 #ifdef __LP64__
